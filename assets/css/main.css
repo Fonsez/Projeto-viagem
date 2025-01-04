@@ -1,0 +1,15 @@
+main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+main img{
+  width: 286px;
+  height: 286px;
+  border-radius: 5px;
+
+  /* para colocar em quadrado perfeito */
+  object-fit: cover;
+}
