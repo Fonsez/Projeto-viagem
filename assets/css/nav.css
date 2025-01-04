@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+  align-items: center;
+  
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  padding-block: 8px;
+  
+}
+
+.woman-header {
+  width: 40px;
+  height: 40px;
+}
