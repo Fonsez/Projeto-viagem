@@ -1,0 +1,44 @@
+header{
+  /* padding em cima e emabaixo */
+  padding-block: 32px;
+  font: var(--text-md);
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#profile{
+  display: flex;
+  gap: 32px;
+}
+
+/* dentro do profile o primeiro nivel de filho dele tem esse tamanho x */
+#profile > div{
+
+  max-width: 384px;
+}
+
+#profile h1{
+  font: var(--text-lg);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+#info{
+  /* lembrando q para poder usar o gap o display tem q ser flex */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 280px;
+}
+
+#info li{
+  /* mesmo esquema de cima tinha uma gap entre o icone e escrita */
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
