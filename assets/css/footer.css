@@ -1,0 +1,10 @@
+footer{
+  display: flex;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+/* nth-chield é a contagem dos filhos que temos dentro de uma caixa, como o span que quero é o 1 ent usaria assim se tivesse uma tag a na em cima n funcionaria pois n é o filho 1 ent seria o 2 e assim por diante */
+footer span:nth-child(1){
+  margin-right: auto;
+}
